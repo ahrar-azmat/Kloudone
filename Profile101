@@ -1,5 +1,5 @@
 
-trigger TriggerExample3  on Account (After Update)
+trigger Profile101  on Account (After Update)
 {   
     if(Trigger.isAfter && Trigger.isUpdate)
     {
